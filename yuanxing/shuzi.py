@@ -169,7 +169,7 @@ def no_have():
             if board[i][j] is not None and board[i][j].center==[150+300*j,150+i*300]:
                 anss=anss+1
     print(anss)
-    if anss==6  and board[2][0].center==[450,750] and board[2][1].center==[150,750]:
+    if anss==6  and board[2][0] is not None and board[2][0].center==[450,750] and board[2][1] is not None and board[2][1].center==[150,750]:
                  return True
 
 def history_score():
